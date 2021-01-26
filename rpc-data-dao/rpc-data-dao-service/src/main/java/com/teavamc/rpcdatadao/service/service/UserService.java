@@ -1,4 +1,4 @@
-package com.teavamc.rpcdatadao.api;
+package com.teavamc.rpcdatadao.service.service;
 
 
 import com.teavamc.rpcdatadao.api.model.UserModel;

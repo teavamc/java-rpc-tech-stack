@@ -1,4 +1,4 @@
-package com.teavamc.rpcdatadao.service;
+package com.teavamc.rpcdatadao.service.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cglib.beans.BeanCopier;
@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 
 import com.teavamc.rpcdatadao.dao.dataobject.UserDO;
 import com.teavamc.rpcdatadao.dao.mapper.UserMapper;
-import com.teavamc.rpcdatadao.api.UserService;
 import com.teavamc.rpcdatadao.api.model.UserModel;
 
 /**
