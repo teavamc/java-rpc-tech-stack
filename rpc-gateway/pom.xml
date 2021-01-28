@@ -18,11 +18,9 @@
 
     <modules>
         <module>rpc-gateway-api</module>
-        <module>rpc-gateway-dao</module>
-        <module>rpc-gateway-manager</module>
-        <module>rpc-gateway-service</module>
         <module>rpc-gateway-web</module>
         <module>start</module>
+        <module>rpc-gateway-core</module>
     </modules>
 
     <dependencyManagement>

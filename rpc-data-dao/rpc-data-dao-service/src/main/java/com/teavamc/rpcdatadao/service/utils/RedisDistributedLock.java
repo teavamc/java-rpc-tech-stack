@@ -78,17 +78,10 @@ public class RedisDistributedLock {
 
     /**
      * 无阻塞分布式锁
-     * <pre>
-     * try{
-     *     lock
-     * }finally{
-     *     unlock
-     * }
-     * </pre>
      *
      * @param key
-     * @param expireTime
-     * @param unit
+     * @param expireTime 过期时间
+     * @param unit 时间单位
      * @return
      */
     public boolean lock(String key, long expireTime, TimeUnit unit) {

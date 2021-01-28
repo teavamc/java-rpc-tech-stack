@@ -28,6 +28,7 @@ public class RedisTestServiceImpl implements RedisTestService {
         RedisDistributedLock redisDistributedLock = new RedisDistributedLock(stringRedisTemplate);
         log.info("[{}] 尝试获取资源锁 key:{},",this.getClass().getSimpleName(),resourceName);
         boolean lock_res = redisDistributedLock.tryLock(resourceName,5, TimeUnit.SECONDS);
+        // todo 如果 lock_res == true 执行相关获取资源的逻辑
         log.info("[{}] 尝试获取资源锁 key:{} | 结果:{},",this.getClass().getSimpleName(),resourceName,lock_res);
         return lock_res;
     }
