@@ -32,3 +32,5 @@
 
 # 完成功能与相关文章
 - 2021-01-27 [基于Redis中SETNXEX组合命令的分布式锁的请求限流实践](http://www.teavamc.com/posts/%E5%9F%BA%E4%BA%8Eredis%E4%B8%ADsetnxex%E7%BB%84%E5%90%88%E5%91%BD%E4%BB%A4%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E7%9A%84%E8%AF%B7%E6%B1%82%E9%99%90%E6%B5%81%E5%AE%9E%E8%B7%B5/)
+
+- 2021-01-28 [基于Redis和 Lua 实现分布式令牌桶限流](http://www.teavamc.com/posts/tech_stack_redistokenbucket/)
